@@ -1,0 +1,48 @@
+.movie_card {
+   width: 23%;
+   box-sizing: border-box;
+   position: relative;
+   border-radius: 20px;
+}
+.movie_card:hover {
+   transform: scale(1.05);
+}
+
+.movie_image img {
+   width: 100%;
+   height: auto;
+   border-radius: 20px;
+}
+.rating,
+.movie_card_year {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20px;
+   position: absolute;
+   top: 8px;
+   background-color: var(--bg-main);
+   font-weight: 600;
+   border: 1px solid var(--bg-main);
+   border-radius: 2px;
+}
+.rating {
+   right: 8px;
+   width: 30px;
+}
+
+.movie_card_year {
+   left: 8px;
+   width: 40px;
+   color: var(--text-item);
+}
+
+.rating_color_green {
+   color: green;
+ }
+ .rating_color_yellow {
+   color: yellow;
+ }
+ .rating_color_red {
+   color: red
+ }
